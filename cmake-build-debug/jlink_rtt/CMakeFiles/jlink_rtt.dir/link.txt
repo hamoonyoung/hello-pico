@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libjlink_rtt.a CMakeFiles/jlink_rtt.dir/SEGGER_RTT_V794l/RTT/SEGGER_RTT.c.obj CMakeFiles/jlink_rtt.dir/SEGGER_RTT_V794l/RTT/SEGGER_RTT_printf.c.obj CMakeFiles/jlink_rtt.dir/SEGGER_RTT_V794l/Syscalls/SEGGER_RTT_Syscalls_GCC.c.obj CMakeFiles/jlink_rtt.dir/SEGGER_RTT_V794l/Syscalls/SEGGER_RTT_Syscalls_IAR.c.obj CMakeFiles/jlink_rtt.dir/SEGGER_RTT_V794l/Syscalls/SEGGER_RTT_Syscalls_KEIL.c.obj CMakeFiles/jlink_rtt.dir/SEGGER_RTT_V794l/Syscalls/SEGGER_RTT_Syscalls_SES.c.obj
+/usr/bin/arm-none-eabi-ranlib libjlink_rtt.a

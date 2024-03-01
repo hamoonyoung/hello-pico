@@ -1,0 +1,169 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "jlink_rtt/libjlink_rtt.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_options",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"/home/moon/RTT/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g -std=gnu11 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-pedantic"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-sign-conversion"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-cast-align"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/moon/RTT/SEGGER_RTT_V794l/RTT"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/moon/RTT/SEGGER_RTT_V794l/Config"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"id" : "jlink_rtt::@4736110d3d9cac509555",
+	"name" : "jlink_rtt",
+	"nameOnDisk" : "libjlink_rtt.a",
+	"paths" : 
+	{
+		"build" : "jlink_rtt",
+		"source" : "/home/moon/RTT"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/moon/RTT/SEGGER_RTT_V794l/RTT/SEGGER_RTT.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/moon/RTT/SEGGER_RTT_V794l/RTT/SEGGER_RTT_printf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "/home/moon/RTT/SEGGER_RTT_V794l/Syscalls/SEGGER_RTT_Syscalls_GCC.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "/home/moon/RTT/SEGGER_RTT_V794l/Syscalls/SEGGER_RTT_Syscalls_IAR.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "/home/moon/RTT/SEGGER_RTT_V794l/Syscalls/SEGGER_RTT_Syscalls_KEIL.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "/home/moon/RTT/SEGGER_RTT_V794l/Syscalls/SEGGER_RTT_Syscalls_SES.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

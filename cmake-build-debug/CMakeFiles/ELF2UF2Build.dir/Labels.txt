@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/home/moon/Dev/hello-pico/cmake-build-debug/CMakeFiles/ELF2UF2Build
+/home/moon/Dev/hello-pico/cmake-build-debug/CMakeFiles/ELF2UF2Build.rule
+/home/moon/Dev/hello-pico/cmake-build-debug/CMakeFiles/ELF2UF2Build-complete.rule
+/home/moon/Dev/hello-pico/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/home/moon/Dev/hello-pico/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/home/moon/Dev/hello-pico/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/home/moon/Dev/hello-pico/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/home/moon/Dev/hello-pico/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/home/moon/Dev/hello-pico/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/home/moon/Dev/hello-pico/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
